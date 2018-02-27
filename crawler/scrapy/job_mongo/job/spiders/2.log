@@ -1,0 +1,2 @@
+2017-10-27 19:05:16 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: job)
+2017-10-27 19:05:16 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'job', 'LOG_ENABLED': False, 'LOG_FILE': '2.log', 'NEWSPIDER_MODULE': 'job.spiders', 'SPIDER_MODULES': ['job.spiders']}

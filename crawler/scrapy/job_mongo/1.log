@@ -1,0 +1,100 @@
+2017-10-26 17:54:04 [scrapy.utils.log] INFO: Scrapy 1.4.0 started (bot: job)
+2017-10-26 17:54:04 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'job', 'LOG_FILE': '1.log', 'NEWSPIDER_MODULE': 'job.spiders', 'SPIDER_MODULES': ['job.spiders']}
+2017-10-26 17:54:04 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-10-26 17:54:04 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-10-26 17:54:04 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-10-26 17:54:04 [scrapy.middleware] INFO: Enabled item pipelines:
+['job.pipelines.JobPipeline']
+2017-10-26 17:54:04 [scrapy.core.engine] INFO: Spider opened
+2017-10-26 17:54:04 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-10-26 17:54:04 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-10-26 17:54:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html> (referer: None)
+2017-10-26 17:54:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4021938.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4163936.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3991594.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2787913.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3878118.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co310515.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3886304.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4103854.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co730754.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3136278.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4633010.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3795237.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3426407.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4589472.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3878797.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2517962.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co939538.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3990421.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4550840.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2660982.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co221013.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3948274.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4011221.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co1371459.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co1589468.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2656843.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3201688.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4337586.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co321501.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3863882.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3848549.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3721378.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3242854.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2204116.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4614452.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2555714.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2255025.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4523156.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3019117.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3998513.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3905366.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4674686.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co1326355.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2454434.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2003420.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2690950.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co2526458.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4126508.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co4030667.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://jobs.51job.com/all/co3888057.html> (referer: http://search.51job.com/list/040000,000000,0000,00,9,99,python,2,1.html)
+2017-10-26 17:54:09 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-10-26 17:54:09 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 45706,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 738850,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 51,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 10, 26, 9, 54, 9, 773472),
+ 'log_count/DEBUG': 52,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 51,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2017, 10, 26, 9, 54, 4, 832189)}
+2017-10-26 17:54:09 [scrapy.core.engine] INFO: Spider closed (finished)
